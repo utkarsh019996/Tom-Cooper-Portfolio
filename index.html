@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Cooper Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">C<span>.</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#resume">Resume</a></li>
+        <li class="link"><a href="#blog">Blog</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <h4>Hello, I'm Tom Copper</h4>
+        <h1>UI/UX & Creative Designer</h1>
+        <p class="section__description">
+          In the world of design, I fuse UX finesse with creative flair. As a
+          UI/UX & Creative Designer, my portfolio is a visual journey where
+          innovation meets aesthetics. Welcome to a space where every pixel
+          tells a story and each interaction is a work of art.
+        </p>
+        <div class="header__btns">
+          <button class="btn btn__primary" id="download-cv">Download CV</button>
+          <button class="btn btn__secondary">Read More</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h4>Let's Introduce About Myself</h4>
+        <p class="section__description">
+          Hello, I'm Cooper, a passionate UI/UX & Creative Designer on a mission
+          to elevate digital experiences. With a keen eye for detail and a flair
+          for creativity,
+          <span>I bring ideas to life in the digital realm.</span> My work is a
+          fusion of user-centric design and aesthetic innovation, creating
+          engaging and memorable interactions.
+        </p>
+        <p class="section__description">
+          Let's embark on a visual journey that
+          <span>transcends boundaries</span> and redefines the digital
+          landscape.
+        </p>
+        <div class="about__progress">
+          <h5>UX Design</h5>
+          <div class="about__progressbar" data-progress="95"><span></span></div>
+          <h5>Visual Storytelling</h5>
+          <div class="about__progressbar" data-progress="75"><span></span></div>
+          <h5>Prototyping</h5>
+          <div class="about__progressbar" data-progress="80"><span></span></div>
+          <h5>Adobe Mastery</h5>
+          <div class="about__progressbar" data-progress="70"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <h2 class="section__header">What We Do</h2>
+        <p class="section__description">
+          We craft seamless digital experiences, marrying intuitive UX design
+          with captivating visuals. From user-centric interfaces to engaging
+          visual storytelling, a mastery of the Adobe Creative Suite.
+        </p>
+        <div class="service__grid">
+          <div class="service__card">
+            <span><i class="ri-mac-line"></i></span>
+            <div>
+              <h4>UX/UI Design Consultation</h4>
+              <p>
+                We provide tailored consultations with expert guidance to
+                optimize your product's usability, functionality, and overall
+                visual appeal.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-quill-pen-fill"></i></span>
+            <div>
+              <h4>Visual Branding Solutions</h4>
+              <p>
+                We specialize in creating cohesive visual elements that
+                communicate your brand's personality and resonate with your
+                target audience.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-heart-line"></i></span>
+            <div>
+              <h4>Interactive Prototyping</h4>
+              <p>
+                Our meticulous prototyping services allow you to visualize your
+                designs early in the process, ensuring a user-friendly and
+                efficient final product.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-customer-service-fill"></i></span>
+            <div>
+              <h4>Graphic Design and Illustration</h4>
+              <p>
+                Elevate your content with striking visuals and designing
+                marketing materials through our graphic design and illustration
+                services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container resume__container" id="resume">
+      <h2 class="section__header">My Qualifications</h2>
+      <p class="section__description">
+        Combined with a passion for continuous learning, my qualifications
+        extend beyond academia, encompassing hands-on projects and a commitment
+        to staying at the forefront of design trends.
+      </p>
+      <div class="resume__tabs">
+        <div class="resume__tablist">
+          <button class="btn active" data-tab="1">Education</button>
+          <button class="btn" data-tab="2">Experience</button>
+        </div>
+        <div class="resume__tabpanel">
+          <div class="panel__grid active" data-panel="1">
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Bachelor's Degree in Graphic Design</h4>
+              <p class="section__description">Crafting Visual Narratives</p>
+              <p class="section__description">
+                Armed with a Bachelor's degree in Graphic Design, I have honed
+                my skills in creating visually compelling narratives.
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Master's Degree in User Experience Design</h4>
+              <p class="section__description">Elevating Digital Interactions</p>
+              <p class="section__description">
+                A Master's degree in User Experience Design has equipped me with
+                advanced knowledge and expertise in enhancing interactions.
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Professional Certification in Web Development</h4>
+              <p class="section__description">
+                Bridging Design and Functionality
+              </p>
+              <p class="section__description">
+                A certification in Web Development underscores my commitment to
+                bridging the gap between design and functionality.
+              </p>
+            </div>
+          </div>
+          <div class="panel__grid" data-panel="2">
+            <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4>Mid-Level Designer</h4>
+              <p class="section__description">
+                Mastering the Art of User-Centric Design
+              </p>
+              <p class="section__description">
+                In the role of a Mid-Level Designer, I have evolved to
+                specialize in user-centric design, merging aesthetics with
+                functionality.
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4>Junior Designer</h4>
+              <p class="section__description">Nurturing Creativity</p>
+              <p class="section__description">
+                As a Junior Designer, I am dedicated to honing my craft and
+                cultivating creative instincts.
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4>Senior Design Strategist</h4>
+              <p class="section__description">Shaping Vision into Impact</p>
+              <p class="section__description">
+                As a Senior Design Strategist, my focus extends beyond execution
+                to strategic design thinking.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="section__container banner__container">
+        <div class="banner__card">
+          <h4>8+</h4>
+          <p>Years of Experience</p>
+        </div>
+        <div class="banner__card">
+          <h4>50+</h4>
+          <p>Completed Projects</p>
+        </div>
+        <div class="banner__card">
+          <h4>30+</h4>
+          <p>Satisfied Clients</p>
+        </div>
+        <div class="banner__card">
+          <h4>15+</h4>
+          <p>Global Reach</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="client">
+      <div class="section__container client__container">
+        <h2 class="section__header">Happy Clients Says</h2>
+        <p class="section__description">
+          The seamless integration of innovation and user-centric design in
+          their work has left a lasting impression on our clients and elevated
+          our digital presence.
+        </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Their ability to create visually stunning and highly
+                  functional designs is exceptional. As the CEO of Digital
+                  Dynamics Agency, I have witnessed firsthand the positive
+                  impact they have on our projects.
+                </p>
+                <h4>Michael Rodriguez</h4>
+                <h5>CEO, Digital Dynamics Agency</h5>
+                <img src="assets/client-1.jpg" alt="client" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Working with Cooper was a revelation! Their designs not only
+                  captured the essence of our brand but elevated it to new
+                  heights.
+                </p>
+                <h4>Sarah Johnson</h4>
+                <h5>Marketing Director, Tech Innovations Inc.</h5>
+                <img src="assets/client-2.jpg" alt="client" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  I had the pleasure of collaborating with them on a critical
+                  project for Innovate Startups. Their ability to translate our
+                  brand vision into a visually compelling user experience was
+                  truly impressive.
+                </p>
+                <h4>Alexandra Thompson</h4>
+                <h5>Founder, Innovate Startups</h5>
+                <img src="assets/client-3.jpg" alt="client" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container blog__container" id="blog">
+      <h2 class="section__header">It Helps Your Goals</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/blog-1.jpg" alt="blog" />
+          <div class="blog__content">
+            <h4>Crafting Seamless Journeys</h4>
+            <p class="section__description">
+              Explore the art of user-centric design and discover strategies to
+              elevate digital experiences for a lasting impact.
+            </p>
+            <div>
+              <a href="#">Read More</a>
+              <div class="blog__socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-2.jpg" alt="blog" />
+          <div class="blog__content">
+            <h4>Visual Storytelling Unleashed</h4>
+            <p class="section__description">
+              Delve into the realm of visual storytelling, uncovering the
+              secrets to creating compelling narratives through design elements.
+            </p>
+            <div>
+              <a href="#">Read More</a>
+              <div class="blog__socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-3.jpg" alt="blog" />
+          <div class="blog__content">
+            <h4>Design Trends Decoded</h4>
+            <p class="section__description">
+              Stay ahead in the dynamic world of UI/UX with insights into the
+              latest design trends shaping the future of digital experiences.
+            </p>
+            <div>
+              <a href="#">Read More</a>
+              <div class="blog__socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <h2 class="section__header">24/7 Support Hello Says</h2>
+        <p class="section__description">
+          A testament to our commitment, these testimonials showcase the
+          satisfaction of clients who've experienced our 24/7 support.
+        </p>
+        <div class="footer__grid">
+          <div class="footer__content">
+            <h4>Tom Cooper</h4>
+            <p>
+              Explore more of my work, connect with me on social media, or drop
+              a message.
+            </p>
+            <p>
+              Let's continue the design conversation and embark on new creative
+              journeys together.
+            </p>
+            <p>Thank you for visiting!</p>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </div>
+          </div>
+          <div class="footer__form">
+            <form action="/">
+              <div class="input__row">
+                <input type="text" placeholder="Your Name" />
+                <input type="text" placeholder="Your Email" />
+              </div>
+              <textarea placeholder="Your Message"></textarea>
+              <button class="btn btn__primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
